@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-System\bin\Debug\net10.0\Student-EV-System.exe
 C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-System\bin\Debug\net10.0\Student-EV-System.deps.json
 C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-System\bin\Debug\net10.0\Student-EV-System.runtimeconfig.json
@@ -13,3 +14,20 @@ C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-Syste
 C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-System\obj\Debug\net10.0\Student-EV-System.pdb
 C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-System\obj\Debug\net10.0\Student-EV-System.genruntimeconfig.cache
 C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-System\obj\Debug\net10.0\ref\Student-EV-System.dll
+=======
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-System\bin\Debug\net10.0\Student-EV-System.exe
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-System\bin\Debug\net10.0\Student-EV-System.deps.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-System\bin\Debug\net10.0\Student-EV-System.runtimeconfig.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-System\bin\Debug\net10.0\Student-EV-System.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-System\bin\Debug\net10.0\Student-EV-System.pdb
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-System\obj\Debug\net10.0\Student-EV-System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-System\obj\Debug\net10.0\Student-EV-System.AssemblyInfoInputs.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-System\obj\Debug\net10.0\Student-EV-System.AssemblyInfo.cs
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-System\obj\Debug\net10.0\Student-EV-System.csproj.CoreCompileInputs.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-System\obj\Debug\net10.0\Student-EV-System.sourcelink.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-System\obj\Debug\net10.0\Student-EV-System.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-System\obj\Debug\net10.0\refint\Student-EV-System.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-System\obj\Debug\net10.0\Student-EV-System.pdb
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-System\obj\Debug\net10.0\Student-EV-System.genruntimeconfig.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\28-02-2026\Student-EV-System\obj\Debug\net10.0\ref\Student-EV-System.dll
+>>>>>>> 4ae319f949256a901a991103fb1e79c4cd033a0e
