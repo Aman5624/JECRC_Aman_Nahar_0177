@@ -1,11 +1,5 @@
-function calculateTotal(cart) {
-    return cart.reduce((total, price) => total + price, 0);
+function task18(){
+const cart=[500,1200,800,1500];
+const total=cart.reduce((s,p)=>s+p,0);
+document.getElementById("t18").innerText=total;
 }
-
-function main() {
-    const cart = [500, 1200, 800, 1500];
-    const totalPrice = calculateTotal(cart);
-    console.log(totalPrice);
-}
-
-main();

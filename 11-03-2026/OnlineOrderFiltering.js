@@ -1,11 +1,5 @@
-function filterOrders(orders) {
-    return orders.filter(order => order > 1000);
+function task17(){
+const orders=[450,1200,700,3000,1500];
+const result=orders.filter(o=>o>1000);
+document.getElementById("t17").innerText=JSON.stringify(result);
 }
-
-function main() {
-    const orders = [450, 1200, 700, 3000, 1500];
-    const result = filterOrders(orders);
-    console.log(result);
-}
-
-main();
