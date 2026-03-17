@@ -1,0 +1,49 @@
+<form (ngSubmit)="bookAppointment()">
+
+  <label>Patient Name:</label>
+  <input type="text" [(ngModel)]="patientName" name="name" required>
+
+  <br><br>
+
+  <label>Select Doctor:</label>
+  <select [(ngModel)]="doctor" name="doctor" required>
+    <option value="">--Select--</option>
+    <option *ngFor="let d of doctors" [value]="d">{{ d }}</option>
+  </select>
+
+  <br><br>
+
+  <label>Appointment Date:</label>
+  <input type="date" [(ngModel)]="date" name="date" [min]="todayDate()">
+
+  <br><br>
+
+  <label>Consultation Type:</label>
+  <select [(ngModel)]="type" name="type">
+    <option>Online</option>
+    <option>Offline</option>
+  </select>
+
+  <br><br>
+
+  <label>Symptoms:</label><br>
+  <textarea [(ngModel)]="symptoms" name="symptoms"></textarea>
+
+  <br><br>
+
+  <button type="submit">Book Appointment</button>
+
+</form>
+
+<hr>
+
+<h3>Appointment Summary</h3>
+
+<p><b>Name:</b> {{ patientName }}</p>
+<p><b>Doctor:</b> {{ doctor }}</p>
+<p><b>Date:</b> {{ date }}</p>
+<p><b>Type:</b> {{ type }}</p>
+<p><b>Symptoms:</b> {{ symptoms }}</p>
+<p><b>Fee:</b> ₹{{ fee }}</p>
+
+<h3 style="color: green;">{{ message }}</h3>

@@ -1,0 +1,22 @@
+<p>Pizza Works!!</p>
+
+<label>Pizza Name:</label>
+<input [(ngModel)]="pizzaName" />
+
+<br><br>
+
+<label>Quantity:</label>
+<input [(ngModel)]="quantity" type="number" />
+
+<br><br>
+
+<label>Delivery Address:</label>
+<textarea [(ngModel)]="address"></textarea>
+
+<hr>
+
+<h3>Order Summary</h3>
+
+<p>Pizza: {{ pizzaName }}</p>
+<p>Quantity: {{ quantity }}</p>
+<p>Address: {{ address }}</p>
