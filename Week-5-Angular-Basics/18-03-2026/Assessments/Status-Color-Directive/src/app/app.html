@@ -1,0 +1,15 @@
+<h1>🎓 Student Status Dashboard</h1>
+
+<div *ngFor="let s of students">
+
+  <h3>{{ s.name }}</h3>
+
+  <p [appStatusColor]="s.marks">
+    Marks: {{ s.marks }}
+  </p>
+
+  <p>
+    Status: {{ s.marks >= 50 ? 'Pass' : 'Fail' }}
+  </p>
+
+</div>

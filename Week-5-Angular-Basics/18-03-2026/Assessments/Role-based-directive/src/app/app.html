@@ -1,0 +1,9 @@
+<h1>Role Based Dashboard</h1>
+
+<div *appRole="{ requiredRole: 'admin', currentRole: userRole }">
+  🔐 Admin Panel (Visible only to Admin)
+</div>
+
+<div *appRole="{ requiredRole: 'user', currentRole: userRole }">
+  👤 User Panel (Visible only to User)
+</div>
