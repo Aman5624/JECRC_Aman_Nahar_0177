@@ -1,0 +1,82 @@
+<h2>🧾 Checkout</h2>
+
+<form [formGroup]="form" (ngSubmit)="submit()" class="checkout-form">
+
+  <!-- 👤 CUSTOMER DETAILS -->
+  <h3>Customer Details</h3>
+
+  <div class="row">
+    <input formControlName="name" placeholder="Full Name">
+    <input formControlName="email" type="email" placeholder="Email">
+    <input formControlName="phone" type="number" placeholder="Phone">
+  </div>
+
+  <textarea formControlName="address" placeholder="Full Address"></textarea>
+
+  <!-- 🔘 Gender -->
+  <div class="row">
+    <label>Gender:</label>
+    <label><input type="radio" value="Male" formControlName="gender"> Male</label>
+    <label><input type="radio" value="Female" formControlName="gender"> Female</label>
+  </div>
+
+  <!-- 🚚 Delivery -->
+  <div class="row">
+    <label>Delivery:</label>
+    <label><input type="radio" value="Standard" formControlName="delivery"> Standard</label>
+    <label><input type="radio" value="Express" formControlName="delivery"> Express</label>
+  </div>
+
+  <!-- ☑️ Options -->
+  <div class="row">
+    <label><input type="checkbox" formControlName="terms"> Accept Terms</label>
+    <label><input type="checkbox" formControlName="subscribe"> Subscribe</label>
+  </div>
+
+  <!-- 📍 Location -->
+  <div class="row">
+    <select formControlName="city">
+      <option value="">Select City</option>
+      <option>Udaipur</option>
+      <option>Jaipur</option>
+    </select>
+
+    <input type="date" formControlName="date">
+  </div>
+
+  <!-- 📝 Notes -->
+  <textarea formControlName="notes" placeholder="Additional Instructions"></textarea>
+
+  <!-- 📂 File Upload -->
+  <div class="row">
+    <label>Upload ID Proof:</label>
+    <input type="file">
+  </div>
+
+  <!-- 💳 PAYMENT -->
+  <h3>Payment</h3>
+
+  <div class="row">
+    <label><input type="radio" value="Card" formControlName="payment"> Card</label>
+    <label><input type="radio" value="UPI" formControlName="payment"> UPI</label>
+    <label><input type="radio" value="COD" formControlName="payment"> COD</label>
+  </div>
+
+  <!-- 💳 Card Details -->
+  <div *ngIf="form.value.payment === 'Card'" class="payment-box">
+    <input placeholder="Card Number">
+    <input type="month" placeholder="Expiry Date">
+    <input placeholder="CVV">
+  </div>
+
+  <!-- 📱 UPI -->
+  <div *ngIf="form.value.payment === 'UPI'" class="payment-box">
+    <input placeholder="UPI ID">
+  </div>
+
+  <!-- ✅ Submit -->
+  <button type="submit" class="submit-btn">
+    Place Order 🚀
+  </button>
+
+</form>

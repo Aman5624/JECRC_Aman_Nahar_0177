@@ -1,0 +1,41 @@
+<h2>🛍️ Products</h2>
+
+<!-- 🔍 Search -->
+<input 
+  [(ngModel)]="searchText" 
+  placeholder="Search products..." 
+  class="search-box"
+/>
+
+<!-- 📂 Category Filter -->
+<select [(ngModel)]="selectedCategory" class="filter">
+  <option value="">All Categories</option>
+  <option value="Electronics">Electronics</option>
+  <option value="Fashion">Fashion</option>
+</select>
+
+<hr>
+
+<!-- 📦 Product List -->
+<div class="product-container">
+  <div class="product-card" *ngFor="let p of filteredProducts()">
+
+    <h3>{{ p.name }}</h3>
+    <p>💰 ₹{{ p.price }}</p>
+    <p>⭐ Rating: {{ p.rating }}</p>
+
+    <!-- 🔢 Quantity -->
+    <input 
+      type="number" 
+      min="1"
+      [(ngModel)]="p.qty" 
+      placeholder="Qty"
+    >
+
+    <!-- 🛒 Add to Cart -->
+    <button (click)="add(p, p.qty || 1)">
+      Add to Cart
+    </button>
+
+  </div>
+</div>
