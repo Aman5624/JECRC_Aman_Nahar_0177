@@ -1,0 +1,14 @@
+<section>
+	<h2>Products</h2>
+
+	<ul>
+		@for (product of products; track product.id) {
+			<li>
+				<span>{{ product.name }} - ${{ product.price }}</span>
+				<button type="button" (click)="addToCart(product)">Add to Cart</button>
+			</li>
+		}
+	</ul>
+
+	<p>Total items in cart: {{ getCartItems().length }}</p>
+</section>

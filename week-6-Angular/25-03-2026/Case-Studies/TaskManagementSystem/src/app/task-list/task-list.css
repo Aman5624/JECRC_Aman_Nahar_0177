@@ -1,0 +1,110 @@
+:host {
+	display: block;
+}
+
+.task-list-card {
+	--ink: #0f172a;
+	--border: #cbd5e1;
+	--surface: linear-gradient(145deg, #f8fafc 0%, #ecfeff 52%, #eef2ff 100%);
+	--ok-1: #0284c7;
+	--ok-2: #0369a1;
+	--danger-1: #ef4444;
+	--danger-2: #dc2626;
+
+	border: 1px solid var(--border);
+	border-radius: 16px;
+	background: var(--surface);
+	box-shadow: 0 14px 28px -20px rgba(2, 8, 23, 0.7);
+	padding: 1rem;
+}
+
+.task-list-card h2 {
+	margin: 0 0 0.8rem;
+	color: var(--ink);
+	font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+	font-size: 1.08rem;
+	letter-spacing: 0.02em;
+}
+
+.task-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	gap: 0.55rem;
+}
+
+.task-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.7rem;
+	border: 1px solid #dbeafe;
+	border-radius: 12px;
+	background: #ffffff;
+	padding: 0.62rem 0.7rem;
+}
+
+.task-title {
+	color: var(--ink);
+	font-size: 0.96rem;
+	overflow-wrap: anywhere;
+}
+
+.task-title.completed {
+	text-decoration: line-through;
+	color: #64748b;
+}
+
+.task-actions {
+	display: flex;
+	gap: 0.45rem;
+	flex-shrink: 0;
+}
+
+.btn {
+	border: none;
+	border-radius: 9px;
+	color: #ffffff;
+	font-weight: 600;
+	padding: 0.46rem 0.75rem;
+	cursor: pointer;
+	transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.btn:hover {
+	transform: translateY(-1px);
+	opacity: 0.95;
+}
+
+.btn:active {
+	transform: translateY(0);
+}
+
+.btn:focus-visible {
+	outline: 2px solid #0f172a;
+	outline-offset: 2px;
+}
+
+.btn-toggle {
+	background: linear-gradient(135deg, var(--ok-1), var(--ok-2));
+}
+
+.btn-delete {
+	background: linear-gradient(135deg, var(--danger-1), var(--danger-2));
+}
+
+@media (max-width: 640px) {
+	.task-item {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.task-actions {
+		width: 100%;
+	}
+
+	.btn {
+		flex: 1;
+	}
+}
