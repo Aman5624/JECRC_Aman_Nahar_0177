@@ -1,0 +1,84 @@
+<div class="banking-app">
+  <header class="bank-header">
+    <div class="header-inner">
+      <div class="logo-area">
+        <span class="logo-icon">⬡</span>
+        <span class="bank-name">HACKERBANK</span>
+      </div>
+      <div class="header-tagline">Digital Banking · Secure · Fast</div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="section-title">
+      <h2>Transaction History</h2>
+      <span class="section-subtitle">Account ending in ···· 4698</span>
+    </div>
+
+    <div class="filter-bar">
+      <div class="filter-group">
+        <label for="dateInput" class="filter-label">Filter by Date</label>
+        <input
+          id="dateInput"
+          type="date"
+          class="date-input"
+          [(ngModel)]="selectedDate"
+          data-testid="date-input"
+        />
+      </div>
+      <button
+        class="filter-btn"
+        (click)="filterByDate()"
+        data-testid="filter-btn"
+      >
+        <span>Filter</span>
+      </button>
+    </div>
+
+    <div class="table-wrapper">
+      <table class="transactions-table" data-testid="transactions-table">
+        <thead>
+          <tr>
+            <th class="col-date">Date</th>
+            <th class="col-desc">Description</th>
+            <th class="col-type">Type</th>
+            <th
+              class="col-amount sortable"
+              (click)="sortByAmount()"
+              data-testid="amount-header"
+            >
+              Amount ($)
+              <span class="sort-icon">↑</span>
+            </th>
+            <th class="col-balance">Balance</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            *ngFor="let txn of displayedTransactions; let i = index"
+            [class.credit-row]="txn.type === 0"
+            [class.debit-row]="txn.type === 1"
+            [attr.data-testid]="'transaction-row-' + i"
+          >
+            <td class="col-date">{{ txn.date }}</td>
+            <td class="col-desc">{{ txn.description }}</td>
+            <td class="col-type">
+              <span class="type-badge" [class.credit]="txn.type === 0" [class.debit]="txn.type === 1">
+                {{ getTypeLabel(txn.type) }}
+              </span>
+            </td>
+            <td class="col-amount" [class.credit-amount]="txn.type === 0" [class.debit-amount]="txn.type === 1">
+              <span *ngIf="txn.type === 0">+</span>
+              <span *ngIf="txn.type === 1">−</span>
+              {{ txn.amount | number:'1.2-2' }}
+            </td>
+            <td class="col-balance">{{ txn.balance }}</td>
+          </tr>
+          <tr *ngIf="displayedTransactions.length === 0">
+            <td colspan="5" class="empty-row">No transactions found for the selected date.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</div>
