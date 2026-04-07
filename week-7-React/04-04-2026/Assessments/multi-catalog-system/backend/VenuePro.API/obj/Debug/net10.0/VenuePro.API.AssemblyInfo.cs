@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VenuePro.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c343d27e13f968841f0832e408dddcb4e9aeb117")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d04d213196cfc3a63c4704a10f874a332c5f2cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("VenuePro.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VenuePro.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
