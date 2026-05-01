@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-11-EF-Core\\30-04-2026\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB04EF2C-A59C-4FF8-9B83-57B7BAE3E030}|WebApplication1.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-11-ef-core\\30-04-2026\\webapplication1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{BB04EF2C-A59C-4FF8-9B83-57B7BAE3E030}|WebApplication1.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-11-ef-core\\30-04-2026\\webapplication1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB04EF2C-A59C-4FF8-9B83-57B7BAE3E030}|WebApplication1.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-11-ef-core\\30-04-2026\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BB04EF2C-A59C-4FF8-9B83-57B7BAE3E030}|WebApplication1.csproj|solutionrelative:webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\aman\\onedrive\\desktop\\jecrc_aman_nahar_0177\\week-11-ef-core\\30-04-2026\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,7 +23,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "WebApplication1",
+              "Title": "WebApplication1.csproj",
               "DocumentMoniker": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-11-EF-Core\\30-04-2026\\WebApplication1\\WebApplication1.csproj",
               "RelativeDocumentMoniker": "WebApplication1.csproj",
               "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-11-EF-Core\\30-04-2026\\WebApplication1\\WebApplication1.csproj",
@@ -41,7 +41,7 @@
               "RelativeDocumentMoniker": "Dockerfile",
               "ToolTip": "C:\\Users\\Aman\\OneDrive\\Desktop\\JECRC_Aman_Nahar_0177\\week-11-EF-Core\\30-04-2026\\WebApplication1\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-04-30T05:58:18.789Z",
               "EditorCaption": ""
